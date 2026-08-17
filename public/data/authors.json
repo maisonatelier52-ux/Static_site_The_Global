@@ -1,0 +1,82 @@
+{
+  "authors": [
+    {
+      "slug": "amelia-hart",
+      "name": "Amelia Hart",
+      "role": "Editor in Chief",
+      "beat": "Global affairs & newsroom strategy",
+      "location": "London",
+      "image": "/images/authors/claire_donovan.webp",
+      "bio": "Amelia Hart leads The Global Dispatch after fifteen years reporting across Europe, North Africa and the United States. Her work focuses on the institutions, people and decisions that turn distant events into everyday consequences.",
+      "social": {
+        "x": "https://x.com/",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    },
+    {
+      "slug": "marcus-lee",
+      "name": "Marcus Lee",
+      "role": "Senior Political Correspondent",
+      "beat": "Politics, elections & public policy",
+      "location": "Washington, D.C.",
+      "image": "/images/authors/james_calloway.webp",
+      "bio": "Marcus Lee covers democratic institutions, campaigns and the policy machinery behind public life. He specializes in translating complex legislation and court filings into useful, accountable reporting.",
+      "social": {
+        "x": "https://x.com/",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    },
+    {
+      "slug": "sofia-nguyen",
+      "name": "Sofia Nguyen",
+      "role": "Technology Editor",
+      "beat": "Artificial intelligence & cybersecurity",
+      "location": "San Francisco",
+      "image": "/images/authors/diana_reeves.webp",
+      "bio": "Sofia Nguyen reports on the systems shaping digital life, from artificial intelligence and platform governance to cybersecurity and the future of work. She previously worked as a data journalist and product researcher.",
+      "social": {
+        "x": "https://x.com/",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    },
+    {
+      "slug": "daniel-okafor",
+      "name": "Daniel Okafor",
+      "role": "International Correspondent",
+      "beat": "Diplomacy, conflict & migration",
+      "location": "Nairobi",
+      "image": "/images/authors/derek_holloway.webp",
+      "bio": "Daniel Okafor reports from diplomatic summits, border regions and fast-changing cities. His dispatches connect geopolitical shifts with the communities living through them.",
+      "social": {
+        "x": "https://x.com/",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    },
+    {
+      "slug": "elena-rossi",
+      "name": "Elena Rossi",
+      "role": "Business & Culture Writer",
+      "beat": "Markets, media & cultural change",
+      "location": "Milan",
+      "image": "/images/authors/monica_voss.webp",
+      "bio": "Elena Rossi writes about money, taste and the industries that influence both. She brings a human lens to market shifts, consumer behavior, art and the business of culture.",
+      "social": {
+        "x": "https://x.com/",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    },
+    {
+      "slug": "priya-shah",
+      "name": "Priya Shah",
+      "role": "Courts & Justice Editor",
+      "beat": "Courts, civil rights & accountability",
+      "location": "New York",
+      "image": "/images/authors/nathan_cole.webp",
+      "bio": "Priya Shah covers courts, civil liberties and the public consequences of legal decisions. A former legal researcher, she reads the filings, follows the record and explains what a ruling changes—and what it does not.",
+      "social": {
+        "x": "https://x.com/",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    }
+  ]
+}

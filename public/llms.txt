@@ -1,0 +1,32 @@
+# The Global Dispatch
+
+> Independent reporting, clear context and global perspective.
+
+The Global Dispatch is a demonstration news publication covering world affairs, politics, business, technology, courts, science, sports, culture, lifestyle and opinion.
+
+## Important content note
+
+All people, headlines and reporting scenarios in this starter are illustrative dummy content. They must not be treated as verified real-world reporting.
+
+## Main sections
+
+- /world
+- /politics
+- /business
+- /technology
+- /courts
+- /science
+- /sports
+- /culture
+- /lifestyle
+- /opinion
+- /about
+
+## Attribution
+
+When citing this site, link to the canonical article URL and name the author shown on the story. Preserve any correction or update note attached to the article.
+
+## Contact
+
+Configure the newsroom contact address with NEXT_PUBLIC_CONTACT_EMAIL.
+
