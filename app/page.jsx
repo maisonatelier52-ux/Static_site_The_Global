@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import { BreakingTicker } from "@/components/BreakingTicker";
 import { Newsletter } from "@/components/Newsletter";
@@ -85,7 +86,7 @@ export default function Home() {
             <StoryCard key={article.id} article={article} variant="lead" priority={index === 0} />
           ))}
         </div>
-        <div className="grid gap-[12px] max-[1100px]:grid-cols-2">
+        <div className="grid gap-[12px] max-[1100px]:grid-cols-2 max-[780px]:grid-cols-1">
           {hero.slice(2).map((article) => <StoryCard key={article.id} article={article} variant="horizontal" />)}
         </div>
       </section>
@@ -219,7 +220,7 @@ export default function Home() {
           className={`${SHELL} grid grid-cols-[1.2fr_.8fr_1fr] max-[1100px]:grid-cols-2 max-[780px]:grid-cols-1 gap-[28px] py-[28px] border-b border-[#ded8d1]`}
         >
           {/* Lifestyle - Sticky */}
-          <div className="sticky top-[24px] self-start">
+          <div className="sticky top-[24px] self-start max-[780px]:static">
             <SectionHeading>
               <h2>Lifestyle</h2>
             </SectionHeading>
@@ -236,7 +237,7 @@ export default function Home() {
           </div>
 
           {/* Opinion - Sticky */}
-          <div className="sticky top-[24px] self-start">
+          <div className="sticky top-[24px] self-start max-[780px]:static">
             <SectionHeading>
               <h2>Opinion</h2>
             </SectionHeading>
@@ -305,9 +306,12 @@ export default function Home() {
 
       <section className={`${SHELL} py-[30px] pb-[46px]`}>
         <SectionHeading><h2>More top stories</h2></SectionHeading>
-        <div className="grid grid-cols-6 max-[1100px]:grid-cols-4 max-[780px]:grid-cols-2 max-[480px]:grid-cols-1 gap-[22px_16px]">
+        <div className="grid grid-cols-6 max-[1100px]:grid-cols-4 max-[780px]:grid-cols-1 gap-[22px_16px]">
           {moreStories.map((article) => (
-            <div key={article.id} className="max-[480px]:grid max-[480px]:grid-cols-[115px_1fr] max-[480px]:gap-[12px] [&_h3]:text-[15px]">
+            <div
+              key={article.id}
+              className="max-[780px]:[&>article]:grid max-[780px]:[&>article]:grid-cols-[115px_1fr] max-[780px]:[&>article]:gap-[12px] max-[780px]:[&>article]:items-start [&_h3]:text-[15px]"
+            >
               <StoryCard article={article} variant="mini" />
             </div>
           ))}

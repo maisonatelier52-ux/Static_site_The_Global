@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Newsletter } from "@/components/Newsletter";
@@ -74,7 +75,7 @@ export default async function ArticlePage({ params }) {
      
 
       <div className={`${SHELL} grid grid-cols-[280px_minmax(0,760px)] max-[900px]:grid-cols-1 gap-[48px] items-start py-[40px] pb-[56px]`}>
-        <aside className="flex flex-col gap-[22px] sticky top-[18px] max-[900px]:static">
+        <aside className="flex flex-col gap-[22px] sticky top-[18px] max-[900px]:static max-[900px]:order-2">
           <div className={CARD}>
             <h2>Most Read</h2>
             <ol className="list-none m-0 p-0 flex flex-col">
@@ -88,7 +89,7 @@ export default async function ArticlePage({ params }) {
           </div>
         </aside>
 
-        <article className="min-w-0">
+        <article className="min-w-0 max-[900px]:order-1">
            <div className={SHELL}>
         <nav className="flex flex-wrap gap-[8px] items-center text-[#6b6b6b] text-[12.5px] pt-[26px] [&>a:hover]:text-[#7a1f2b] [&>span:last-child]:text-[#1a1a1a] [&>span:last-child]:overflow-hidden [&>span:last-child]:text-ellipsis [&>span:last-child]:whitespace-nowrap [&>span:last-child]:max-w-[45vw]" aria-label="Breadcrumb">
           <Link href="/">Home</Link>
