@@ -41,7 +41,7 @@ export function Newsletter({ compact = false }) {
           The Daily Dispatch
         </span>
         <h2 className={`my-[5px] font-bold font-['Georgia','Times_New_Roman',serif] ${compact ? "text-[24px]" : "text-[22px]"}`}>
-          {compact ? "News worth your time." : "Stay informed, without the noise."}
+          Subscribe to our newsletter
         </h2>
         <p className={`m-0 text-[#eadcdf] text-[13px] font-['Georgia','Times_New_Roman',serif] ${compact ? "leading-[1.5] mb-[18px]" : ""}`}>
           A concise morning briefing of the stories shaping the day.
