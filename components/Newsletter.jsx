@@ -66,7 +66,7 @@ export function Newsletter({ compact = false }) {
         />
         <button
           type="submit"
-          className={`border border-white bg-transparent text-white px-[20px] cursor-pointer hover:bg-white hover:text-[#71151f] ${
+          className={`border border-white bg-transparent text-white px-[20px] cursor-pointer hover:bg-gray-700 hover:text-black ${
             compact ? "w-full h-[44px] mt-[8px]" : "h-[46px]"
           }`}
         >
