@@ -133,7 +133,7 @@ export default async function ArticlePage({ params }) {
                   <p key={`p-${blockIndex}`} className={`m-0 mb-[16px] text-[#2a2a2a] ${SANS} text-[14.5px] leading-[1.75]`}>{block.text}</p>
                 ) : (
                   <figure key={`i-${blockIndex}`} className="my-[26px]">
-                    <img src={block.src} alt={block.alt || "Article supporting image"} loading="lazy" className="w-full aspect-[16/10] object-cover" />
+                    <img src={block.src} alt={block.alt || "Article supporting image"} loading="lazy" className="w-full aspect-[18/9] object-cover" />
                     {block.caption && <figcaption className="mt-[9px] text-[#6b6b6b] text-[12px]">{block.caption}</figcaption>}
                   </figure>
                 ),
