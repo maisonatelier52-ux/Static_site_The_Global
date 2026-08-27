@@ -120,7 +120,7 @@ export default async function ArticlePage({ params }) {
        
       </div>
            <figure className="mt-[28px]">
-          <img src={article.image} alt={article.imageAlt} className="w-full h-[400px] aspect-video object-fit" />
+          <img src={article.image} alt={article.imageAlt} className="w-full h-[200px] md:h-[400px] aspect-video object-fit" />
           <figcaption className="mt-[9px] text-[#6b6b6b] text-[12px]">{article.imageAlt}</figcaption>
         </figure>
           {article.sections.map((section, index) => (
